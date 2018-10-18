@@ -26,5 +26,8 @@ print(">> Salida 6 de mi array: "+str(list_things)+" / 'ESTA VACIO'")#salida de 
 
 print("*** EL BACKUP DE MI LISTA : "+str(copia_list_things)+" ****")#salida de nuestro nuevo array(copia)
 
+print("Fin.........................................................!!!")
+
+
 
 
