@@ -16,3 +16,4 @@ for animal in the_list2:
         print("## My favorite animal is rabbit and is in the list 2.")
 print("The list number has "+str(len(the_list2))+" items.")
 
+
