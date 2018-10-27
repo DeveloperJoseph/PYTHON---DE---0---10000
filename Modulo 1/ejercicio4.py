@@ -12,8 +12,8 @@ the_list2 = ["rabbit","cat","dog","parrot"]
 print(">> The list number 2 is (with for): "+str(the_list2))
 for animal in the_list2:
     print("## The animal secret is: "+animal)
-    if "rabbit" in animal:
-        print("## My favorite animal is rabbit and is in the list 2.")
+    if "rabbit" in animal:   #si rabbit existe o es igual a animal 
+        print("## My favorite animal is rabbit and is in the list 2.")#salida de condicion ifs
 print("The list number has "+str(len(the_list2))+" items.")
 
 

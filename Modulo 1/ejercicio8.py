@@ -69,12 +69,22 @@ print(">| Fruits tuple eliminado....")
 
 #También es posible usar el constructor tuple () para hacer una tupla.  
 print("## Creando un nuevo contructor tipo tuple")
-mi_new_tuple = tuple(("rabbit","cat","dog"))
+mi_new_tuple = tuple(("rabbit","cat","dog","rabbit"))
 print(">| Salida de mi nuevo tuple constructor es: "+str(mi_new_tuple))
+
 
 print("## Recorriendo items de mi constructor tuple con un ciclo for...")
 for animal in mi_new_tuple:
     print(">| Item de constructor tuple: "+animal)
+
+print("## Calculando cantidad de cada item en mi colección de animal tuple.............")
+r = mi_new_tuple.count("rabbit")
+c = mi_new_tuple.count("cat")
+d = mi_new_tuple.count("dog")
+
+print(">| Cantidad de rabbit: "+str(r))
+print(">| Cantidad de cat: "+str(c))
+print(">| Cantidad de dog: "+str(d))
 
 print("Mensaje aplicativo: See you later. Goodbye....")
 print("### END END END END END END ###")
