@@ -81,12 +81,48 @@ if "Spanish" in languages:
                         if "Hindi" in languages:
                             print("#> State Language Hindi: OK")
 
-
                    
 print("Numbers of languages translated: "+str(len(languages)))
 
+#Loop Through a Dictonary more method languages.item():
 for x, y in languages.items():
         print("Language: "+str(x)+"-> "+str(y))
+        
+print(">#Loading more languages translated....")
+#Adding an item to the dictionary is done by using a 
+#new index key and assigning a value to it:
+languages["Italy"]="Ciao"
+languages["Vietman"]="Xin chào"
+print("# Download external files for new languages translated...")
+
+#Loop Through a Dictonary more method languages.item():
+for z, w in languages.items():
+    print("Language: "+str(z)+"= "+str(w))
+print("> Languages translated: "+str(len(languages)))
+
+#Removing Items:
+#There are several methods to remove items from a dictionary:
+
+#Example: "The pop() method removes the item with the specified
+#key name."
+#> Removing one Item from my languages dictionary 
+print("## Removing one Item method pop()...")
+print("Item delete: "+str(languages.pop("Croatia")))
+print("## Removing las Item method popitem()...")
+print("#> Random Item removing is: "+str(languages.popitem()))
+print("## Loading New List...")
+print(">+ List of languages: "+str(languages))
+
+# The clear() keyword empties the dictionary:
+languages.clear()
+
+#Using variable languages as constructor
+languages = dict(Animal="Perro",Name="Firulay's",Age=3)
+print("> New Constructor dict is: "+str(languages))
+print("> Thank you..!!")
+
+
+
         
 
 
