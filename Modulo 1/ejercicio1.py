@@ -2,15 +2,14 @@
 #& 'y' con un valor de '7'  
 x = 5
 y = 7
-print("El valor de 'x' es: ",x)
-print(type(x))#nos retorna el tipo de variable de x
+print("\n>El valor de 'x' es: ",x," , y tipo de variable es: ",type(x))
 print("------------------")
-print("El valor de 'y' es: ",y)
-print(type(y))#nos retorna el tipo de variable de y
-print("------------------")
+print("> El valor de 'y' es: ",y," y tipe de variable es: ",type(y))
+
+
 print("=========================")
-print("La suma es: ",(x + y))#Salida de mis variables (suma)
-print("La resta es: ",(x - y))#Salida de mis variables (resta)
+print("La suma es: ",(x + y)," , y tipo de variable es: ",type(x+y))#Salida de mis variables (suma)
+print("La resta es: ",(x - y)," y su tipo de variables es: ",type(x-y))#Salida de mis variables (resta)
 print("La multiplicación es: ",(x * y))#Salida de mis variables (multiplicacion)
-print("La división es:",(x / y))#Salida de mis variables (division)
+print("La división es:",(x / y)," y su tipo de variables es: ",type(x/y))#Salida de mis variables (division)
 print("La residuo es:",(x % y))#Salida de mis variables (residuo)

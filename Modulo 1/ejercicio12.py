@@ -94,4 +94,22 @@ print(">> Seventh example OR keyword: ")
 if a > b or a > c:
     print("At least one of the condition are true")
 
+#Remenber of yesterday
+print("\n##Remenber all.....")
+print("Loading software Count....")
+
+#Dictionary x with values None
+x = {"College":None,"State":None}
+x["College"]="ACOUNTAS ASD"#Update value for Key name 'College' 
+x["State"]=1#Update value for Key name 'State'
+
+#CONDITION IF, ELIF AND ELSE IN PYTHON
+if x["College"] == "ACOUNTAS ASD" and x["State"]==0:
+    print(">Answer: Not very perfecT.....")#Output of condition if
+elif x["College"] == "ACOUNTAS ASD" and x["State"]==1:
+    print(">Answer: Really Very perfect!!!")#Output of condition elif
+else:
+    print(">Answer: Not perfecT.....")#Output of condition else
+
+
 print("\n Thank you for attention...")
