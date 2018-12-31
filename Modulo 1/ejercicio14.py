@@ -11,12 +11,16 @@ def  method_max_two(a,b):
         return a
     elif b > a:
         return b
+    else:
+        return "Equals"
 
 def method_min_two(a,b):
     if a < b:
         return a
     elif b < a:
         return b
+    else:
+        return "Equals"
 
 def promedio_two(a,b):
     suma = float(a)+float(b)
@@ -69,3 +73,4 @@ print("#> Value 'max' is: ",method_max_three(n1,n2,n3))
 print("#> Value 'min' is: ",method_min_three(n1,n2,n3))
 print("#> Value 'promedio' is: ",promedio_three(n1,n2,n3))
 print("#> Sesion: ",now)
+
