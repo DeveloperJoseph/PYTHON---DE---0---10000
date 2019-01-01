@@ -24,9 +24,19 @@ def say_emotion(x,y):
 #Creating a class with name 'country', also has two variable 'peru_city'
 #and 'united_state_city' in our class 'hello.py'
 class user_information:
+    #definition __init__ with three variables and 
+    # a variable itself(self,name,country,age)
     def __init__(self,name,country,age):
         self.name = name
         self.country = country
         self.age = age
+    
+    #definition 'calc_age' with variable 'age'   
+    def calc_age(self):
+        if self.age < 18:
+            return "Younger"
+        elif self.age >= 18:
+            return "Adult"
+
 
 

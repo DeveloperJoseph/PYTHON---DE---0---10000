@@ -8,13 +8,17 @@ print(hello.say_hello(name))...
 """
 print("\n")
 
-#Creating an object of our class 'hello.py'
+#Data Entry:
 name = str(input("Name: "))
 country = str(input("Country: "))
 age = int(input("Age: "))
 
+#Creating an object of our class 'hello.py'
 user_information = hello.user_information(name,country,age)
-print("I'm ",user_information.name)
+
+#Data output
+print("\nI'm ",user_information.name)
 print("I'm from ",user_information.country)
-print("I'm ",age,' years old')
+print("I'm ",user_information.age,' years old')
+print("More Information: ",user_information.calc_age())
  
