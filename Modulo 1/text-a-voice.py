@@ -10,5 +10,5 @@ def  method_tts(text_file,language,name_file):
 
 print(">> Loading convert text a voice...")
 name_archive = str(input(">> Name of archive (.mp3): "))
-method_tts("E:\PYTHON - DE - 0 - 10000\Modulo 1\helloworld.txt","EN","E:\PYTHON - DE - 0 - 10000\Modulo 1\ "+name_archive+".mp3")
+method_tts("E:\PYTHON - DE - 0 - 10000\Modulo 1\helloworld.txt","ES","E:\PYTHON - DE - 0 - 10000\Modulo 1\Audio\ "+name_archive+".mp3")
 print(">> Save.....")

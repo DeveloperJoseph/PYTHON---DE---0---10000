@@ -1,0 +1,69 @@
+
+Nombre de host:                            WHOAMI
+Nombre del sistema operativo:              Microsoft Windows 10 Pro
+Versi¢n del sistema operativo:             10.0.17134 N/D Compilaci¢n 17134
+Fabricante del sistema operativo:          Microsoft Corporation
+Configuraci¢n del sistema operativo:       Estaci¢n de trabajo independiente
+Tipo de compilaci¢n del sistema operativo: Multiprocessor Free
+Propiedad de:                              JOSEPH
+Organizaci¢n registrada:                   
+Id. del producto:                          00331-10000-00001-AA314
+Fecha de instalaci¢n original:             04/06/2018, 17:48:42
+Tiempo de arranque del sistema:            09/01/2019, 14:46:59
+Fabricante del sistema:                    Dell Inc.
+Modelo el sistema:                         Inspiron 14-3467
+Tipo de sistema:                           x64-based PC
+Procesador(es):                            1 Procesadores instalados.
+                                           [01]: Intel64 Family 6 Model 142 Stepping 9 GenuineIntel ~2500 Mhz
+Versi¢n del BIOS:                          Dell Inc. 2.0.3, 25/08/2017
+Directorio de Windows:                     C:\WINDOWS
+Directorio de sistema:                     C:\WINDOWS\system32
+Dispositivo de arranque:                   \Device\HarddiskVolume1
+Configuraci¢n regional del sistema:        es-pe;Espa¤ol (Per£)
+Idioma de entrada:                         es;Espa¤ol (tradicional)
+Zona horaria:                              (UTC-05:00) Bogot , Lima, Quito, Rio Branco
+Cantidad total de memoria f¡sica:          7.970 MB
+Memoria f¡sica disponible:                 3.579 MB
+Memoria virtual: tama¤o m ximo:            12.731 MB
+Memoria virtual: disponible:               4.718 MB
+Memoria virtual: en uso:                   8.013 MB
+Ubicaci¢n(es) de archivo de paginaci¢n:    C:\pagefile.sys
+Dominio:                                   WORKGROUP
+Servidor de inicio de sesi¢n:              \\WHOAMI
+Revisi¢n(es):                              7 revisi¢n(es) instaladas.
+                                           [01]: KB4343669
+                                           [02]: KB4456655
+                                           [03]: KB4465663
+                                           [04]: KB4471331
+                                           [05]: KB4477137
+                                           [06]: KB4480979
+                                           [07]: KB4480966
+Tarjeta(s) de red:                         4 Tarjetas de interfaz de red instaladas.
+                                           [01]: Dell Wireless 1707 802.11b/g/n (2.4GHZ)
+                                                 Nombre de conexi¢n: Wi-Fi
+                                                 DHCP habilitado:    S¡
+                                                 Servidor DHCP:      192.168.1.1
+                                                 Direcciones IP
+                                                 [01]: 192.168.1.41
+                                                 [02]: fe80::35fe:8606:98cb:3527
+                                           [02]: Realtek PCIe FE Family Controller
+                                                 Nombre de conexi¢n: Ethernet
+                                                 Estado:             Medios desconectados
+                                           [03]: VMware Virtual Ethernet Adapter for VMnet1
+                                                 Nombre de conexi¢n: VMware Network Adapter VMnet1
+                                                 DHCP habilitado:    S¡
+                                                 Servidor DHCP:      192.168.91.254
+                                                 Direcciones IP
+                                                 [01]: 192.168.91.1
+                                                 [02]: fe80::542f:5b76:d1e7:c7be
+                                           [04]: VMware Virtual Ethernet Adapter for VMnet8
+                                                 Nombre de conexi¢n: VMware Network Adapter VMnet8
+                                                 DHCP habilitado:    S¡
+                                                 Servidor DHCP:      192.168.252.254
+                                                 Direcciones IP
+                                                 [01]: 192.168.252.1
+                                                 [02]: fe80::4c71:8f5a:7969:c94d
+Requisitos Hyper-V:                        Extensiones de modo de monitor de VM: S¡
+                                           Se habilit¢ la virtualizaci¢n en el firmware: S¡
+                                           Traducci¢n de direcciones de segundo nivel: S¡
+                                           La prevenci¢n de ejecuci¢n de datos est  disponible: S¡
