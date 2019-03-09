@@ -26,7 +26,7 @@ def some_function():
 for x in some_function():
     print(x)
 """
-
+"""
 def fibonacci(n):
     a = b = 1 # 'a' and 'b' init with value 1 
     for i in range(n):#for loop
@@ -35,3 +35,39 @@ def fibonacci(n):
 
 for value in fibonacci(10):#init function fibonacion with for loop
     print(value)#print get value
+"""
+"""
+def fibonacciTwo(n):
+        a = b = 1
+        result = []
+        for i in range(n):
+                result.append(a)
+                a,b = b,b+a
+        return result
+"""
+
+"""
+def myFunction(x):
+        countNumber=0
+        for y in range(x):
+                if y == 9:
+                        countNumber+=1
+                yield y
+                countNumber+=1
+        print("Numbers generated: ",countNumber*2)
+for value in myFunction(10):#init function fibonacion with for loop
+    print(value)#print get value
+"""
+"""
+def generatedFunction():
+        for x in range(3):
+                yield x
+g = generatedFunction()
+print(next(g))
+print(next(g))
+"""
+
+#new iter string
+my_string = "JOSEPH"
+my_new_iter = iter(my_string)
+print("> ",next(my_new_iter))

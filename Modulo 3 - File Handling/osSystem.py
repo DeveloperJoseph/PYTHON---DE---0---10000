@@ -1,5 +1,17 @@
 import os
+import sys
 
+
+
+print("Nombre del sistema: ")
+
+
+
+
+
+
+
+""""
 #created a command 
 command = "systeminfo"
 tubo = os.popen(command)#execute the command
@@ -13,7 +25,7 @@ catalogue.writelines(datos)# write lines
 catalogue.close() #close a file
 print("> File created..") #print message
 print("> Length: ",len(datos)) #length of data in datos
-
+"""
 
 
 
